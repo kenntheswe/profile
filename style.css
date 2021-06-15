@@ -118,6 +118,17 @@ a {
   border-radius: 8px;
 }
 
+.card-content i {
+  font-size: 32px;
+  color: black;
+  opacity: .5;
+  transition: opacity .3s ease;
+}
+
+.card-content i:hover {
+  opacity: 1;
+}
+
 .footer {
   width: 100%;
   color: white;
