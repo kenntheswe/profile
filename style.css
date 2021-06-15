@@ -6,7 +6,7 @@ font-family: 'Roboto', sans-serif; */
 body {
   font-family: 'Roboto', sans-serif;
   color: rgb(0,0,0);
-  background-color: #95F9E3;
+  background-color: #99FFE6;
 }
 
 .container {
@@ -46,10 +46,10 @@ a {
 .btn-paper {
   background-color: #252324;
   color: #d5d5d5;
-  transition: background-color 0.25s ease;
-  margin: 10px;
-  padding: 15px;
-  border-radius: 5px;
+  transition: background-color 0.5s ease;
+  margin: 16px;
+  padding: 16px 24px;
+  border-radius: 8px;
   text-align: center;
   display: inline-block;
 }
@@ -59,32 +59,67 @@ a {
   color: #252324;
 }
 
-.card-container {
-  display: flex;
-  justify-content: space-around;
+.cards {
+  margin: 16px;
 }
 
-.card-lavendar {
-  flex-grow: 1;
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+@media (max-width: 960px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 720px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 540px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card-lavender {
   background-color: #6d7993;
   box-shadow: 0 0 24px rgb(0 0 0 / 25%);
   border-radius: 8px;
   padding: 16px;
-  margin: 16px;
   text-align: center;
 }
 
 .card-dusty {
-  flex-grow: 1;
   background-color: #96858f;
   box-shadow: 0 0 24px rgb(0 0 0 / 25%);
   border-radius: 8px;
   padding: 16px;
-  margin: 16px;
   text-align: center;
 }
 
+.content {
+  margin: 16px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content {
+  background-color: white;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 0 24px rgb(0 0 0 / 25%);
+  border-radius: 8px;
+}
+
 .footer {
+  width: 100%;
   color: white;
   flex-grow: 1;
   background-color: black;
