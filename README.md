@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Profile 👋</h1>
+<h1 align="center">Welcome to Kenn's Profile 👋</h1>
 <p>
   <a href="https://twitter.com/kennvungan" target="_blank">
     <img alt="Twitter: kennvungan" src="https://img.shields.io/twitter/follow/kennvungan.svg?style=social" />
