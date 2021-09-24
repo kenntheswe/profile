@@ -85,16 +85,8 @@ a {
   }
 }
 
-.card-lavender {
-  background-color: #6d7993;
-  box-shadow: 0 0 24px rgb(0 0 0 / 25%);
-  border-radius: 8px;
-  padding: 16px;
-  text-align: center;
-}
-
-.card-dusty {
-  background-color: #96858f;
+.card {
+  background-color: white;
   box-shadow: 0 0 24px rgb(0 0 0 / 25%);
   border-radius: 8px;
   padding: 16px;
