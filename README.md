@@ -17,7 +17,7 @@
 
 * Website: https://www.kennvun.me
 * Twitter: [@kennvungan](https://twitter.com/kennvungan)
-* Github: [@Kenn-0](https://github.com/Kenn-0)
+* Github: [@kennvungan](https://github.com/kennvungan)
 * LinkedIn: [@kennvungan](https://linkedin.com/in/kennvungan)
 
 ## 🤝 Contributing
